@@ -7,8 +7,8 @@ const WHATSAPP_NUMBER = "51902154049";
 const WHATSAPP_MESSAGE = "Hola ReprogrÁmate, me gustaría agendar una sesión de terapia.";
 
 const stats = [
-  { value: "+200", label: "Sesiones realizadas" },
-  { value: "+5", label: "Años de experiencia" },
+  { value: "+100", label: "Sesiones realizadas" },
+  { value: "+2", label: "Años de experiencia" },
   { value: "100%", label: "Compromiso contigo" },
 ];
 
@@ -52,9 +52,9 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="font-heading text-6xl md:text-7xl lg:text-8xl font-light leading-[1.1] mb-6"
         >
-          Transforma tu mente,{" "}
+          Reprograma tu mente,{" "}
           <span className="gradient-text font-semibold italic">
-            ámate sin límites
+            Transforma tu realidad
           </span>
         </motion.h1>
 
@@ -66,9 +66,10 @@ export default function Hero() {
         >
           En{" "}
           <strong className="text-brand-text font-semibold">ReprogrÁmate</strong>{" "}
-          te acompañamos en un viaje de transformación interior a través de
-          barras de Access, alineación de chakras, meditación guiada y limpiezas
-          energéticas.
+          te acompañamos en un viaje de transformación interior. A través
+          de la integración de terapias holísticas y energéticas, potenciadas por principios de
+          neurociencia y técnicas que trabajan sobre tu subconsciente, te ayudamos a ordenar
+          tu información inconsciente, liberar bloqueos, potenciar tu bienestar y expandir tu máximo potencial.
         </motion.p>
 
         <motion.div
@@ -84,7 +85,7 @@ export default function Hero() {
             className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-brand-violet to-brand-rose text-white font-semibold text-lg glow-md hover:scale-105 transition-all duration-300"
           >
             <MessageCircle size={20} />
-            Agenda tu primera sesión
+            Agenda tu sesión
           </a>
           <a
             href="#servicios"
