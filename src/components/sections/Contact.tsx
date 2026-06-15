@@ -50,9 +50,9 @@ export default function Contact() {
             hoy
           </h2>
           <p className="text-brand-muted text-lg max-w-2xl mx-auto mb-12 leading-relaxed">
-            No esperes más para invertir en tu bienestar. Escríbenos y con gusto
-            te acompañamos a encontrar el servicio que más se adapta a lo que
-            necesitas en este momento de tu vida.
+            Transforma tu realidad mediante un viaje interno de autodescubrimiento hacia el
+            infinito potencial.
+            Escríbeme ahora y asegura tu sesión personalizada. 
           </p>
         </motion.div>
 

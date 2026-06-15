@@ -5,27 +5,27 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "María González",
-    role: "Empresaria",
+    name: "Lenin R",
+    role: "Ingeniero",
     text: "Las Barras de Access cambiaron mi vida por completo. Llevaba años con ansiedad crónica y después de tres sesiones siento una paz que no conocía. ReprogrÁmate es un lugar de verdadera transformación.",
     stars: 5,
-    initials: "MG",
+    initials: "LR",
     gradient: "from-violet-500 to-purple-600",
   },
   {
-    name: "Carlos Mendoza",
+    name: "Oscar",
     role: "Docente",
     text: "Llegué sin creer mucho en estas terapias, pero la alineación de chakras me abrió los ojos. Mi energía mejoró, duermo mejor y tengo mucha más claridad mental. Definitivamente seguiré viniendo.",
     stars: 5,
-    initials: "CM",
+    initials: "O",
     gradient: "from-amber-400 to-orange-500",
   },
   {
-    name: "Sofía Ramírez",
-    role: "Diseñadora",
+    name: "Daniel B",
+    role: "Diseñador",
     text: "La meditación guiada con ReprogrÁmate es diferente a todo lo que había probado. El acompañamiento es muy profesional y se nota el amor que ponen en cada sesión. ¡Totalmente recomendado!",
     stars: 5,
-    initials: "SR",
+    initials: "DB",
     gradient: "from-pink-400 to-rose-500",
   },
 ];
