@@ -1,52 +1,143 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
-import { Brain, Zap, Wind, Sparkles } from "lucide-react";
+import {
+  Brain,
+  Magnet,
+  HeartHandshake,
+  Hand,
+  Flower2,
+  Mountain,
+  Atom,
+  Eye,
+  Wind,
+  ChevronDown,
+} from "lucide-react";
 
 const services = [
   {
     icon: Brain,
-    title: "Barras de Access",
+    title: "Barras Access",
     description:
-      "Libera patrones y limitaciones energéticas mediante 32 puntos específicos en la cabeza que almacenan pensamientos, emociones y creencias que te impiden avanzar.",
+      "Técnica científicamente comprobada que trabaja con 32 puntos específicos en la cabeza. Su objetivo es resetear la mente y liberar patrones, creencias y bloqueos mentales y emocionales, descargando la carga acumulada de pensamientos negativos y patrones repetitivos.",
     gradient: "from-violet-500 to-purple-600",
     shadow: "hover:shadow-violet-500/20",
   },
   {
-    icon: Zap,
-    title: "Alineación de Chakras",
+    icon: Magnet,
+    title: "Biomagnetismo",
     description:
-      "Equilibra y armoniza tus centros energéticos para restaurar el flujo vital, promoviendo bienestar físico, emocional y espiritual de manera integral.",
+      "Terapia integral que utiliza imanes estratégicamente aplicados para equilibrar la energía del cuerpo, apoyando su capacidad natural de autorregulación y promoviendo bienestar físico, emocional y energético.",
+    gradient: "from-blue-400 to-indigo-500",
+    shadow: "hover:shadow-blue-500/20",
+  },
+  {
+    icon: HeartHandshake,
+    title: "Liberación de emociones",
+    description:
+      "Procedimiento que trabaja con los meridianos energéticos del cuerpo para liberar emociones atrapadas a lo largo de la vida, incluyendo las transgeneracionales. Un proceso simple y poderoso que restaura el equilibrio emocional y el bienestar.",
+    gradient: "from-pink-400 to-rose-500",
+    shadow: "hover:shadow-rose-500/20",
+  },
+  {
+    icon: Hand,
+    title: "Tapping",
+    description:
+      "Técnica que combina estimulación de puntos energéticos con atención consciente, diseñada para trabajar sobre patrones emocionales y mentales acumulados.",
     gradient: "from-amber-400 to-orange-500",
     shadow: "hover:shadow-amber-500/20",
   },
   {
-    icon: Wind,
-    title: "Meditación Guiada",
+    icon: Flower2,
+    title: "Flores de Bach",
     description:
-      "Sesiones personalizadas que te llevan a estados profundos de relajación y expansión de consciencia, reduciendo el estrés, la ansiedad y el ruido mental.",
-    gradient: "from-pink-400 to-rose-500",
-    shadow: "hover:shadow-pink-500/20",
+      "Terapia natural con esencias florales, descubierta por el Dr. Edward Bach, que ayuda a armonizar emociones y estados internos, promoviendo equilibrio y claridad emocional.",
+    gradient: "from-fuchsia-400 to-pink-500",
+    shadow: "hover:shadow-fuchsia-500/20",
   },
   {
-    icon: Sparkles,
-    title: "Limpiezas Energéticas",
+    icon: Mountain,
+    title: "Terapia energética ancestral",
     description:
-      "Purifica tu campo áurico y tus espacios, disolviendo energías densas y bloqueos que impiden tu crecimiento, bienestar y plenitud personal.",
-    gradient: "from-cyan-400 to-teal-500",
+      "Basada en la sabiduría ancestral de los pueblos originarios, la sesión busca armonizar cuerpo, mente y energía, utilizando técnicas de sanación que promueven el Sumaq Kawsay, el buen vivir, para fomentar bienestar integral.",
+    gradient: "from-orange-500 to-amber-600",
+    shadow: "hover:shadow-orange-500/20",
+  },
+  {
+    icon: Atom,
+    title: "Terapia método Yuen",
+    description:
+      "Técnica de sanación cuántica desarrollada por el Dr. Kam Yuen, basada en la sabiduría ancestral de los Monjes Shaolin, la Medicina Tradicional China y la física cuántica. Permite identificar y liberar bloqueos energéticos y patrones subconscientes, promoviendo equilibrio emocional, claridad mental y desbloqueo del potencial personal.",
+    gradient: "from-cyan-400 to-blue-500",
     shadow: "hover:shadow-cyan-500/20",
+  },
+  {
+    icon: Eye,
+    title: "Sesiones de terapia transpersonal",
+    description:
+      "Sesión individual para revisar tu historia emocional y explorar tu mundo interior. Se utilizan herramientas transpersonales para hacer consciente lo inconsciente y ordenar tu información interna.",
+    gradient: "from-indigo-400 to-violet-500",
+    shadow: "hover:shadow-indigo-500/20",
+  },
+  {
+    icon: Wind,
+    title: "Meditación & mindfulness",
+    description:
+      "Sesiones diseñadas para cultivar la atención plena, la calma interior y la claridad mental, ayudando a mantener el equilibrio emocional y el bienestar diario.",
+    gradient: "from-teal-400 to-cyan-500",
+    shadow: "hover:shadow-teal-500/20",
   },
 ];
 
 const container = {
   hidden: {},
-  show: { transition: { staggerChildren: 0.15 } },
+  show: { transition: { staggerChildren: 0.1 } },
 };
 
 const item = {
   hidden: { opacity: 0, y: 40 },
   show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" as const } },
 };
+
+function ServiceCard({ service }: { service: (typeof services)[number] }) {
+  const [isOpen, setIsOpen] = useState(false);
+  const Icon = service.icon;
+
+  return (
+    <motion.div
+      variants={item}
+      className={`group glass rounded-2xl border border-brand-violet/12 p-6 hover:border-brand-violet/30 hover:shadow-2xl ${service.shadow} transition-all duration-500`}
+    >
+      <div
+        className={`inline-flex p-2.5 rounded-xl bg-gradient-to-br ${service.gradient} mb-5`}
+      >
+        <Icon size={20} className="text-white" />
+      </div>
+      <h3 className="font-heading text-xl font-semibold text-brand-text mb-2">
+        {service.title}
+      </h3>
+      <p
+        className={`text-brand-muted text-sm leading-relaxed ${
+          isOpen ? "" : "line-clamp-3"
+        }`}
+      >
+        {service.description}
+      </p>
+      <button
+        type="button"
+        onClick={() => setIsOpen((open) => !open)}
+        className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-brand-violet-light hover:text-brand-text transition-colors cursor-pointer"
+      >
+        {isOpen ? "Leer menos" : "Leer más"}
+        <ChevronDown
+          size={16}
+          className={`transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}
+        />
+      </button>
+    </motion.div>
+  );
+}
 
 export default function Services() {
   return (
@@ -77,30 +168,11 @@ export default function Services() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-2 gap-6"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-start"
         >
-          {services.map((svc) => {
-            const Icon = svc.icon;
-            return (
-              <motion.div
-                key={svc.title}
-                variants={item}
-                className={`group glass rounded-2xl border border-brand-violet/12 p-8 hover:border-brand-violet/30 hover:shadow-2xl ${svc.shadow} transition-all duration-500`}
-              >
-                <div
-                  className={`inline-flex p-3 rounded-xl bg-gradient-to-br ${svc.gradient} mb-6`}
-                >
-                  <Icon size={22} className="text-white" />
-                </div>
-                <h3 className="font-heading text-2xl font-semibold text-brand-text mb-3">
-                  {svc.title}
-                </h3>
-                <p className="text-brand-muted leading-relaxed">
-                  {svc.description}
-                </p>
-              </motion.div>
-            );
-          })}
+          {services.map((service) => (
+            <ServiceCard key={service.title} service={service} />
+          ))}
         </motion.div>
       </div>
     </section>
