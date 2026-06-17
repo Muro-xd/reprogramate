@@ -6,35 +6,45 @@ import { Plus, Minus } from "lucide-react";
 
 const faqs = [
   {
-    question: "¿Qué son las Barras de Access y para qué sirven?",
+    question: "¿Qué son las terapias holísticas y energéticas?",
     answer:
-      "Las Barras de Access son 32 puntos en la cabeza que, al ser tocados suavemente, liberan la energía eléctrica atascada de pensamientos, creencias y emociones limitantes. Ayudan a reducir el estrés, mejorar el sueño, aliviar la ansiedad y abrir espacio para nuevas posibilidades en tu vida.",
+      "Son prácticas que trabajan con la energía, emociones y bienestar integral, ayudando a equilibrar cuerpo, mente y emociones. Se enfocan en tu crecimiento personal y armonía interior, complementando tu cuidado diario.",
   },
   {
-    question: "¿Necesito creer en energías para que las terapias funcionen?",
+    question: "¿Necesito experiencia previa o conocimientos especiales?",
     answer:
-      "No es necesario. La mayoría de nuestros clientes llegaron con escepticismo y reportaron cambios positivos. Las terapias trabajan de forma holística —mente, cuerpo y energía— y los resultados suelen hablar por sí mismos.",
+      "No, las sesiones están diseñadas para cualquier persona. Solo necesitas abrirte a la experiencia y querer conectar contigo mismo.",
   },
   {
-    question: "¿Cuántas sesiones necesito para ver resultados?",
+    question: "¿Cómo funcionan las sesiones individuales?",
     answer:
-      "Depende de cada persona y sus objetivos. Muchos clientes notan cambios significativos desde la primera sesión. Para transformaciones más profundas, recomendamos entre 3 y 6 sesiones con regularidad. Durante la consulta inicial te orientamos según tu caso específico.",
+      "Cada sesión es guiada por mí y adaptada a tus necesidades. Exploraremos tu historia emocional, tus patrones internos y tus bloqueos, utilizando herramientas energéticas y transpersonales.",
   },
   {
-    question: "¿Las sesiones son presenciales o virtuales?",
+    question: "¿Cuánto duran las sesiones?",
     answer:
-      "Ofrecemos ambas modalidades. Las sesiones presenciales potencian la experiencia energética, pero terapias como la meditación guiada y ciertas técnicas de alineación funcionan muy bien de forma virtual también.",
+      "La duración promedio de cada sesión es de 60 a 90 minutos, dependiendo del tipo de terapia y el proceso que se realice.",
   },
   {
-    question: "¿Cuánto dura una sesión?",
+    question: "¿Es necesario combinar varias terapias?",
     answer:
-      "Las sesiones tienen una duración aproximada de 60 a 90 minutos, incluyendo una breve consulta inicial y el proceso de integración al final. Te recomendamos disponer de tiempo para descansar después.",
+      "No es obligatorio. Cada terapia puede realizarse de forma independiente, aunque algunas personas optan por combinarlas para profundizar en su bienestar.",
   },
   {
-    question: "¿Cómo puedo agendar mi primera sesión?",
+    question: "¿Es seguro?",
+    answer:
+      "Sí, todas las terapias son naturales y seguras. No sustituyen atención médica, psicológica o psiquiátrica, sino que la complementan desde el bienestar integral.",
+  },
+  {
+    question: "¿Qué necesito llevar a la sesión?",
+    answer:
+      "Ropa cómoda y, si es virtual, un espacio tranquilo y buena conexión a internet. Solo tu disposición para explorar y conectar contigo.",
+  },
+  {
+    question: "¿Cómo agendo una sesión?",
     answer:
       "Es muy sencillo. Escríbenos por WhatsApp con tu nombre y el servicio que te interesa. Te responderemos en menos de 24 horas para coordinar fecha, horario y todos los detalles necesarios.",
-  },
+  }
 ];
 
 function FAQItem({
