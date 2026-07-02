@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "ReprogrÁmate | Terapias Alternativas de Sanación",
+  title: "Neuroconsciencia | Terapias Alternativas de Sanación",
   description:
     "Transforma tu mente y ámate sin límites. Barras de Access, alineación de chakras, meditación guiada y limpiezas energéticas. Agenda tu sesión hoy.",
 };

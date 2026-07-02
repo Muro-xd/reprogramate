@@ -2,10 +2,7 @@
 
 import { motion } from "framer-motion";
 import { MessageCircle, Clock, AtSign } from "lucide-react";
-
-const WHATSAPP_NUMBER = "51902154049";
-const WHATSAPP_MESSAGE =
-  "Hola ReprogrÁmate, me gustaría agendar una sesión de terapia.";
+import { WHATSAPP_NUMBER, WHATSAPP_MESSAGE } from "@/lib/constants";
 
 const infoCards = [
   {
@@ -21,7 +18,7 @@ const infoCards = [
   {
     icon: AtSign,
     title: "Síguenos",
-    text: "@reprogramate\nContenido de bienestar diario",
+    text: "@neuroconsciencia\nContenido de bienestar diario",
   },
 ];
 

@@ -44,11 +44,12 @@ export default function About() {
             </span>
           </h2>
           <p className="text-brand-muted text-lg leading-relaxed mb-6">
-            <strong className="text-brand-text">ReprogrÁmate</strong> nació de
+            <strong className="text-brand-text">Neuroconsciencia</strong> nació de
             la convicción de que toda persona tiene dentro de sí la capacidad de
             transformarse. Nuestro nombre lo dice todo:{" "}
-            <em>reprograma</em> tus creencias limitantes y{" "}
-            <em>ámate</em> con la plenitud que mereces.
+            <em>neuro</em>, porque trabajamos con la mente y el sistema nervioso;{" "}
+            <em>consciencia</em>, porque el cambio real comienza al hacer consciente
+            lo que vive en tu interior.
           </p>
           <p className="text-brand-muted leading-relaxed mb-10">
             A través de técnicas ancestrales y herramientas energéticas modernas,
@@ -89,11 +90,11 @@ export default function About() {
             <div className="relative glass rounded-3xl border border-brand-violet/20 p-12 h-full flex flex-col items-center justify-center text-center">
               <div className="w-28 h-28 rounded-full bg-gradient-to-br from-brand-violet to-brand-rose flex items-center justify-center glow-md mb-6">
                 <span className="font-heading text-white text-5xl font-semibold">
-                  R
+                  N
                 </span>
               </div>
               <h3 className="font-heading text-3xl font-semibold gradient-text mb-3">
-                ReprogrÁmate
+                Neuroconsciencia
               </h3>
               <p className="text-brand-muted text-sm italic leading-relaxed">
                 &ldquo;Cada momento de hoy es una oportunidad de ser quien siempre

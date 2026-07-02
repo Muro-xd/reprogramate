@@ -2,9 +2,7 @@
 
 import { motion } from "framer-motion";
 import { MessageCircle, ChevronDown } from "lucide-react";
-
-const WHATSAPP_NUMBER = "51902154049";
-const WHATSAPP_MESSAGE = "Hola ReprogrÁmate, me gustaría agendar una sesión de terapia.";
+import { WHATSAPP_NUMBER, WHATSAPP_MESSAGE } from "@/lib/constants";
 
 const stats = [
   { value: "+100", label: "Sesiones realizadas" },
@@ -65,7 +63,7 @@ export default function Hero() {
           className="text-brand-muted text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
         >
           En{" "}
-          <strong className="text-brand-text font-semibold">ReprogrÁmate</strong>{" "}
+          <strong className="text-brand-text font-semibold">Neuroconsciencia</strong>{" "}
           te acompañamos en un viaje de transformación interior. A través
           de la integración de terapias holísticas y energéticas, potenciadas por principios de
           neurociencia y técnicas que trabajan sobre tu subconsciente, te ayudamos a ordenar
