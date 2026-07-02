@@ -1,8 +1,9 @@
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import WhatsAppFAB from "@/components/ui/WhatsAppFAB";
 import Hero from "@/components/sections/Hero";
 import Services from "@/components/sections/Services";
-import Products from "@/components/sections/Products";
+// import Products from "@/components/sections/Products";
 import About from "@/components/sections/About";
 import Process from "@/components/sections/Process";
 import Testimonials from "@/components/sections/Testimonials";
@@ -16,7 +17,7 @@ export default function Home() {
       <main>
         <Hero />
         <Services />
-        <Products />
+        {/* <Products /> */}
         <About />
         <Process />
         <Testimonials />
@@ -24,6 +25,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <WhatsAppFAB />
     </>
   );
 }
