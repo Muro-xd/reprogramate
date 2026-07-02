@@ -7,7 +7,7 @@ const testimonials = [
   {
     name: "Lenin R",
     role: "Ingeniero",
-    text: "Las Barras de Access cambiaron mi vida por completo. Llevaba años con ansiedad crónica y después de tres sesiones siento una paz que no conocía. ReprogrÁmate es un lugar de verdadera transformación.",
+    text: "Las Barras de Access cambiaron mi vida por completo. Llevaba años con ansiedad crónica y después de tres sesiones siento una paz que no conocía. Neuroconsciencia es un lugar de verdadera transformación.",
     stars: 5,
     initials: "LR",
     gradient: "from-violet-500 to-purple-600",
@@ -23,7 +23,7 @@ const testimonials = [
   {
     name: "Daniel B",
     role: "Diseñador",
-    text: "La meditación guiada con ReprogrÁmate es diferente a todo lo que había probado. El acompañamiento es muy profesional y se nota el amor que ponen en cada sesión. ¡Totalmente recomendado!",
+    text: "La meditación guiada con Neuroconsciencia es diferente a todo lo que había probado. El acompañamiento es muy profesional y se nota el amor que ponen en cada sesión. ¡Totalmente recomendado!",
     stars: 5,
     initials: "DB",
     gradient: "from-pink-400 to-rose-500",

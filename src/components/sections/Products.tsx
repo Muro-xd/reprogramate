@@ -3,6 +3,8 @@
 import Image from "next/image";
 import { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import type { LucideIcon } from "lucide-react";
+import { WHATSAPP_NUMBER } from "@/lib/constants";
 import {
   MessageCircle,
   Leaf,
@@ -18,9 +20,6 @@ import {
   ChevronLeft,
   ChevronRight,
 } from "lucide-react";
-import type { LucideIcon } from "lucide-react";
-
-const WHATSAPP_NUMBER = "51902154049";
 
 type Product = {
   id: string;
@@ -174,7 +173,7 @@ function ProductCard({ product }: { product: Product }) {
     categoryColors[product.category] ??
     "bg-brand-violet/15 text-brand-violet-light border-brand-violet/25";
   const waMessage = encodeURIComponent(
-    `Hola ReprogrÁmate, me interesa el producto *${product.name}*. ¿Me pueden dar más información?`
+    `Hola, me interesa el producto *${product.name}*. ¿Me pueden dar más información?`
   );
 
   return (
