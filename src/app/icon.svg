@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="g" x1="3" y1="3" x2="29" y2="29" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+  </defs>
+  <!-- Fondo oscuro con esquinas redondeadas -->
+  <rect width="32" height="32" rx="7" fill="#0B0819"/>
+  <!-- Pétalo izquierdo -->
+  <path d="M16 25 C13 24 7 22 5 16 C3 11 6 7 9 8 C12 9 14 17 16 25Z" fill="url(#g)" fill-opacity="0.7"/>
+  <!-- Pétalo derecho -->
+  <path d="M16 25 C19 24 25 22 27 16 C29 11 26 7 23 8 C20 9 18 17 16 25Z" fill="url(#g)" fill-opacity="0.7"/>
+  <!-- Pétalo central (frente, opacidad completa) -->
+  <path d="M16 25 C11 21 10 16 10 12 C10 6 13 4 16 4 C19 4 22 6 22 12 C22 16 21 21 16 25Z" fill="url(#g)"/>
+</svg>

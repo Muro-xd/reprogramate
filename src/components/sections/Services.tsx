@@ -20,7 +20,7 @@ const services = [
     icon: Brain,
     title: "Barras Access",
     description:
-      "Técnica científicamente comprobada que trabaja con 32 puntos específicos en la cabeza. Su objetivo es resetear la mente y liberar patrones, creencias y bloqueos mentales y emocionales, descargando la carga acumulada de pensamientos negativos y patrones repetitivos.",
+      "Las Barras Access® son una técnica de bienestar que trabaja con 32 puntos ubicados en la cabeza. Cada uno de estos puntos está relacionado con diferentes aspectos de la vida y almacena la carga energética de pensamientos, creencias, emociones, juicios y patrones que hemos ido acumulando con el paso del tiempo. Durante una sesión, estos puntos se activan mediante un toque suave, favoreciendo la liberación de esa carga acumulada. Esto puede ayudarte a soltar limitaciones, reducir el diálogo mental y abrirte a nuevas posibilidades, permitiéndote vivir con mayor claridad, facilidad y bienestar.",
     gradient: "from-violet-500 to-purple-600",
     shadow: "hover:shadow-violet-500/20",
   },
@@ -28,7 +28,7 @@ const services = [
     icon: Magnet,
     title: "Biomagnetismo",
     description:
-      "Terapia integral que utiliza imanes estratégicamente aplicados para equilibrar la energía del cuerpo, apoyando su capacidad natural de autorregulación y promoviendo bienestar físico, emocional y energético.",
+      "El Biomagnetismo es una terapia complementaria que emplea imanes de mediana intensidad aplicados en puntos específicos del cuerpo. Según los principios de este método, determinadas alteraciones del pH en los tejidos pueden favorecer condiciones asociadas a la presencia o actividad de microorganismos, como virus, bacterias, parásitos y hongos. Desde este enfoque, la aplicación estratégica de campos magnéticos busca favorecer el equilibrio bioenergético del organismo y apoyar sus procesos naturales de autorregulación. Cada sesión se realiza de manera personalizada, ofreciendo un espacio de bienestar y acompañamiento integral.",
     gradient: "from-blue-400 to-indigo-500",
     shadow: "hover:shadow-blue-500/20",
   },
