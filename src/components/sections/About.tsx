@@ -38,23 +38,23 @@ export default function About() {
             Nuestra historia
           </span>
           <h2 className="font-heading text-5xl md:text-6xl font-light mt-3 mb-6 leading-tight">
-            Reprograma tu mente,{" "}
+            Aprovecha tu Kairos,{" "}
             <span className="gradient-text font-semibold italic">
               libera tu potencial
             </span>
           </h2>
           <p className="text-brand-muted text-lg leading-relaxed mb-6">
-            <strong className="text-brand-text">Neuroconsciencia</strong> nació de
+            <strong className="text-brand-text">Kairos</strong> nació de
             la convicción de que toda persona tiene dentro de sí la capacidad de
             transformarse. Nuestro nombre lo dice todo:{" "}
-            <em>neuro</em>, porque trabajamos con la mente y el sistema nervioso;{" "}
-            <em>consciencia</em>, porque el cambio real comienza al hacer consciente
-            lo que vive en tu interior.
+            <em>Kairos</em> es la palabra griega que describe el momento ideal en
+            que algo importante ocurre, una oportunidad única que hay que aprovechar
+            cuando llega — y ese momento es ahora.
           </p>
           <p className="text-brand-muted leading-relaxed mb-10">
             A través de técnicas ancestrales y herramientas energéticas modernas,
             creamos un espacio seguro donde puedes soltar lo que ya no te sirve y
-            abrirte a una versión más plena de ti mismo.
+            abrirte a la versión más plena de ti mismo.
           </p>
 
           <div className="space-y-5">
@@ -90,15 +90,15 @@ export default function About() {
             <div className="relative glass rounded-3xl border border-brand-violet/20 p-12 h-full flex flex-col items-center justify-center text-center">
               <div className="w-28 h-28 rounded-full bg-gradient-to-br from-brand-violet to-brand-rose flex items-center justify-center glow-md mb-6">
                 <span className="font-heading text-white text-5xl font-semibold">
-                  N
+                  K
                 </span>
               </div>
               <h3 className="font-heading text-3xl font-semibold gradient-text mb-3">
-                Neuroconsciencia
+                Kairos
               </h3>
               <p className="text-brand-muted text-sm italic leading-relaxed">
-                &ldquo;Cada momento de hoy es una oportunidad de ser quien siempre
-                quisiste ser.&rdquo;
+                &ldquo;El momento perfecto no se espera, se reconoce
+                y se vive.&rdquo;
               </p>
 
               {/* Dots decorativos */}

@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import KairosLogo from "@/components/ui/KairosLogo";
 
 const navLinks = [
   { label: "Servicios", href: "#servicios" },
@@ -28,16 +29,16 @@ export default function Navbar() {
       initial={{ y: -80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "glass border-b border-brand-violet/10 shadow-lg shadow-brand-violet/5"
+          ? "bg-[#110D24]/80 backdrop-blur-xl border-b border-brand-violet/25 shadow-[0_4px_24px_rgba(139,92,246,0.10)]"
           : "bg-transparent"
       }`}
     >
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="#" className="text-2xl font-heading font-semibold tracking-wide">
-          <span className="text-brand-text">Neuro</span>
-          <span className="gradient-text">consciencia</span>
+        <a href="#" className="flex items-center gap-2 font-heading text-2xl font-semibold tracking-wide">
+          <KairosLogo className="w-10 h-10" />
+          <span className="gradient-text">Kairos</span>
         </a>
 
         <ul className="hidden md:flex items-center gap-8">
