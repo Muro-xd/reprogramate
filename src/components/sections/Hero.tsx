@@ -50,9 +50,9 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="font-heading text-6xl md:text-7xl lg:text-8xl font-light leading-[1.1] mb-6"
         >
-          Reprograma tu mente,{" "}
+          Este es tu Kairos,{" "}
           <span className="gradient-text font-semibold italic">
-            Transforma tu realidad
+            transforma tu realidad
           </span>
         </motion.h1>
 
@@ -63,11 +63,10 @@ export default function Hero() {
           className="text-brand-muted text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
         >
           En{" "}
-          <strong className="text-brand-text font-semibold">Neuroconsciencia</strong>{" "}
-          te acompañamos en un viaje de transformación interior. A través
-          de la integración de terapias holísticas y energéticas, potenciadas por principios de
-          neurociencia y técnicas que trabajan sobre tu subconsciente, te ayudamos a ordenar
-          tu información inconsciente, liberar bloqueos, potenciar tu bienestar y expandir tu máximo potencial.
+          <strong className="text-brand-text font-semibold">Kairos</strong>{" "}
+          te acompañamos a reconocer y aprovechar tu momento de transformación. A través
+          de terapias holísticas y energéticas que trabajan sobre tu mente, emociones y energía,
+          te ayudamos a liberar bloqueos, restaurar tu equilibrio y expandir tu máximo potencial.
         </motion.p>
 
         <motion.div

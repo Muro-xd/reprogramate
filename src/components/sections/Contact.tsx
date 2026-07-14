@@ -8,7 +8,7 @@ const infoCards = [
   {
     icon: Clock,
     title: "Horario de atención",
-    text: "Lunes a viernes: 8am – 7pm\nSábados: 9am – 2pm",
+    text: "Lunes a Domingo: 8am – 9pm\nPrevia cita",
   },
   {
     icon: MessageCircle,
@@ -18,7 +18,7 @@ const infoCards = [
   {
     icon: AtSign,
     title: "Síguenos",
-    text: "@neuroconsciencia\nContenido de bienestar diario",
+    text: "@kairos\nContenido de bienestar diario",
   },
 ];
 

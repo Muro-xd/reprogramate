@@ -1,6 +1,6 @@
-# Neuroconsciencia — Landing Page
+# Kairos — Landing Page
 
-Landing page para **Neuroconsciencia**, empresa de terapias alternativas (Barras de Access, Biomagnetismo, Liberación de emociones, Tapping, Flores de Bach, Meditación y más).
+Landing page para **Kairos**, empresa de terapias alternativas (Barras de Access, Biomagnetismo, Liberación de emociones, Tapping, Flores de Bach, Meditación y más).
 
 ## Stack
 

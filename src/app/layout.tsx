@@ -15,9 +15,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Neuroconsciencia | Terapias Alternativas de Sanación",
+  title: "Kairos",
   description:
-    "Transforma tu mente y ámate sin límites. Barras de Access, alineación de chakras, meditación guiada y limpiezas energéticas. Agenda tu sesión hoy.",
+    "Tu momento de transformación ha llegado. Terapias holísticas y energéticas — Barras Access, Biomagnetismo, Liberación emocional y más — para liberar bloqueos y expandir tu potencial. Agenda tu sesión hoy.",
 };
 
 export default function RootLayout({

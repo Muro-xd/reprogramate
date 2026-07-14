@@ -1,6 +1,15 @@
 @import "tailwindcss";
 
+@keyframes ping-slow {
+  75%, 100% {
+    transform: scale(1.9);
+    opacity: 0;
+  }
+}
+
 @theme {
+  --animate-ping-slow: ping-slow 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+
   --color-brand-bg: #0B0819;
   --color-brand-surface: #110D24;
   --color-brand-card: #1B1440;
