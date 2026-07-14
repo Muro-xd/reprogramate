@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import KairosLogo from "@/components/ui/KairosLogo";
 
 const navLinks = [
   { label: "Servicios", href: "#servicios" },
@@ -35,9 +36,9 @@ export default function Navbar() {
       }`}
     >
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="#" className="text-2xl font-heading font-semibold tracking-wide">
-          <span className="text-brand-violet-light">✦</span>
-          <span className="gradient-text"> Kairos</span>
+        <a href="#" className="flex items-center gap-2 font-heading text-2xl font-semibold tracking-wide">
+          <KairosLogo className="w-10 h-10" />
+          <span className="gradient-text">Kairos</span>
         </a>
 
         <ul className="hidden md:flex items-center gap-8">
