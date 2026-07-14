@@ -18,7 +18,7 @@ const infoCards = [
   {
     icon: AtSign,
     title: "Síguenos",
-    text: "@neuroconsciencia\nContenido de bienestar diario",
+    text: "@kairos\nContenido de bienestar diario",
   },
 ];
 

@@ -36,8 +36,8 @@ export default function Navbar() {
     >
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" className="text-2xl font-heading font-semibold tracking-wide">
-          <span className="text-brand-text">Neuro</span>
-          <span className="gradient-text">consciencia</span>
+          <span className="text-brand-violet-light">✦</span>
+          <span className="gradient-text"> Kairos</span>
         </a>
 
         <ul className="hidden md:flex items-center gap-8">
